@@ -62,15 +62,14 @@ main {
     align-items: center;
 }
 #hobbybox{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-
 }
+
 .grouptitle{
+    margin: 0 auto;
     font-size: 30px;
     color: #474747;
     padding: 20px;
+    text-align: center;
 }
 .groupline{
     width:100px;
@@ -79,9 +78,10 @@ main {
     background-color:#4ec6d3;
 }
 #aboutme{
-    font-size: 20px;
     padding: 0 20px;
+    font-size: 25px;
     text-align: justify;
+
 }
 
 .hobbyitem{
@@ -95,6 +95,12 @@ main {
 .hobbyitem:hover{
     border:1px solid white;
     box-shadow: 3px 3px 8px;
+}
+
+#hobby_icon{
+    padding: 0 20px;
+    font-size: 25px;
+    text-align: center;
 }
 #hobbybox img{
     margin: 10px;
