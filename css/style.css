@@ -1,8 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #2b2f32;
+    font-family: 'Montaga', serif;
 }
 
 main {
@@ -20,18 +24,29 @@ main {
     margin: 10px;
     padding: 10px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menuitem:hover {
-    color: #4ec6d3;
-    ;
+.menuitem a {
+    text-decoration: none;
+}
+
+.menuitem a:visited {
+    color: white;
+}
+
+.menuitem a:hover {
+    color: #ff0000;
+}
+
+#logo {
+    margin: 0px auto;
+    text-align: center;
 }
 
 #title {
     width: 100%;
     color: #474747;
-    font-size: 50px;
+    font-size: 70px;
     margin: 0px auto;
     padding-top: 20px;
     text-align: center;
@@ -40,10 +55,20 @@ main {
 #subtitle {
     width: 100%;
     color: #474747;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
+}
+
+#subtitle a {
+    text-decoration: none;
+    color: #474747;
+}
+
+#subtitle a:hover {
+    text-decoration: underline;
+    color: #474747;
 }
 
 #titleimage {
@@ -55,8 +80,7 @@ main {
     background-size: cover;
     margin: auto;
     text-align: center;
-
-    font-size: 4vw;
+    font-size: 5vw;
     color: #474747;
     display: flex;
     justify-content: center;
@@ -74,12 +98,12 @@ main {
 .groupline {
     width: 100px;
     margin: 0px auto 10px auto;
-    border: 1px solid #4ec6d3;
-    background-color: #4ec6d3;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
 }
 
 #aboutme {
-    padding: 0 40px;
+    padding: 0 80px;
     font-size: 25px;
     text-align: justify;
 }
@@ -100,12 +124,11 @@ main {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid white;
+    border: 1px solid #fafafa;
 }
 
 .hobbyitem:hover {
-    border: 1px solid white;
+    border: 1px solid #fafafa;
     box-shadow: 3px 3px 8px;
 }
 
@@ -113,6 +136,7 @@ main {
     padding: 0 20px;
     font-size: 25px;
     text-align: center;
+    background-color: #fafafa;
 }
 
 #hobby_icon img {
@@ -120,4 +144,70 @@ main {
     width: 80px;
     height: 80px;
     vertical-align: middle;
+}
+
+#contact_form {
+    background-color: #33363b;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#contact_form input {
+    width: 800px;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #2b2f32;
+    background-color: #2b2f32;
+    color: white;
+    font-size: 20px;
+}
+
+#contact_form input:focus {
+    outline: none;
+    border:1px solid #ff0000;
+}
+
+#contact_form textarea {
+    width: 800px;
+    height: 300px;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #2b2f32;
+    background-color: #2b2f32;
+    color: white;
+    font-size: 20px;
+}
+
+#contact_form textarea:focus{
+    outline: none;
+    border: 1px solid #ff0000;
+}
+
+#contact_form button {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
 }
