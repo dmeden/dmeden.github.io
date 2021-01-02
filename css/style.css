@@ -30,7 +30,7 @@ main {
     text-decoration: none;
 }
 
-.menuitem a:active {
+.menuitem a:link {
     color: white;
 }
 
