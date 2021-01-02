@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2b2f32;
+}
+
+main {
+    background-color: white;
+}
+
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menuitem {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuitem:hover {
+    color: #4ec6d3;
+    ;
+}
+
+#title {
+    width: 100%;
+    color: #474747;
+    font-size: 50px;
+    margin: 0px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#subtitle {
+    width: 100%;
+    color: #474747;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#titleimage{
+    background-image: url('../img/header_o.jpg');
+    width: 100%;
+    height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hobbybox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.grouptitle{
+    font-size: 30px;
+    color: #474747;
+    padding: 20px;
+}
+.groupline{
+    width:100px;
+    margin: 0px auto 10px auto;
+    border:1px solid #4ec6d3;
+    background-color:#4ec6d3;
+}
+#aboutme{
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.hobbyitem{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid white;
+}
+
+.hobbyitem:hover{
+    border:1px solid white;
+    box-shadow: 3px 3px 8px;
+}
+#hobbybox img{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
