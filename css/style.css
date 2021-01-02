@@ -30,6 +30,11 @@ main {
     text-decoration: none;
 }
 
+.menuitem a:active {
+    color: white;
+}
+
+
 .menuitem a:visited {
     color: white;
 }
