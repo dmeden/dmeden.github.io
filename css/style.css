@@ -55,7 +55,8 @@ main {
     background-size: cover;
     margin: auto;
     text-align: center;
-    font-size: 60px;
+
+    font-size: 4vw;
     color: #474747;
     display: flex;
     justify-content: center;
