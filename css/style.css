@@ -17,6 +17,7 @@ main {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    font-size: 18px;
 }
 
 .menuitem {
@@ -92,6 +93,9 @@ main {
 }
 
 @media  (max-width: 640px) {
+    #menu{
+        font-size: 12px;
+    }
     #aboutme {
         padding: 0 20px !important;
         font-size: 16px !important;
@@ -188,7 +192,7 @@ main {
 }
 
 #contact_form input {
-    width: 800px;
+    width: 640px;
     padding: 12px 5px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -204,7 +208,7 @@ main {
 }
 
 #contact_form textarea {
-    width: 800px;
+    width: 640px;
     height: 300px;
     padding: 12px 5px;
     margin: 8px 0;
