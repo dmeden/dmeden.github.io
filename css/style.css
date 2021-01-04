@@ -34,7 +34,6 @@ main {
     color: white;
 }
 
-
 .menuitem a:visited {
     color: white;
 }
@@ -91,6 +90,37 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+@media  (max-width: 640px) {
+    #aboutme {
+        padding: 0 20px !important;
+        font-size: 16px !important;
+    }
+    #titleimage {
+        height: 200px;
+    }
+    #title {
+        font-size: 35px;
+    }
+    #subtitle {
+        font-size: 20px;
+    }
+
+    #contact_form input {
+        width: 320px !important;
+        font-size: 16px !important;
+    } 
+
+    #contact_form textarea {
+        width: 320px !important;
+        font-size: 16px !important;
+    } 
+
+    .grouptitle {
+        font-size: 20px !important;
+    }
+}
+
 
 .grouptitle {
     margin: 30px auto 0px auto;
@@ -170,7 +200,7 @@ main {
 
 #contact_form input:focus {
     outline: none;
-    border:1px solid #ff0000;
+    border: 1px solid #ff0000;
 }
 
 #contact_form textarea {
@@ -185,7 +215,7 @@ main {
     font-size: 20px;
 }
 
-#contact_form textarea:focus{
+#contact_form textarea:focus {
     outline: none;
     border: 1px solid #ff0000;
 }
