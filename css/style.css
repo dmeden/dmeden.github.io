@@ -110,12 +110,9 @@ main {
         font-size: 20px;
     }
 
-    #contact_form input {
+    #contact_form input, #contact_form textarea {
         font-size: 16px !important;
-    } 
-
-    #contact_form textarea {
-        font-size: 16px !important;
+        width: 90% !important;
     } 
 
     .grouptitle {
@@ -143,6 +140,7 @@ main {
     padding: 0 80px;
     font-size: 25px;
     text-align: justify;
+    line-height: 150%;
 }
 
 #aboutmeimg {
@@ -190,7 +188,7 @@ main {
 }
 
 #contact_form input {
-    width: 90%;
+    width: 70%;
     padding: 12px 5px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -206,7 +204,7 @@ main {
 }
 
 #contact_form textarea {
-    width: 90%;
+    width: 70%;
     height: 300px;
     padding: 12px 5px;
     margin: 8px 0;
