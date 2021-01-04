@@ -111,12 +111,10 @@ main {
     }
 
     #contact_form input {
-        width: 320px !important;
         font-size: 16px !important;
     } 
 
     #contact_form textarea {
-        width: 320px !important;
         font-size: 16px !important;
     } 
 
@@ -192,7 +190,7 @@ main {
 }
 
 #contact_form input {
-    width: 640px;
+    width: 90%;
     padding: 12px 5px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -208,7 +206,7 @@ main {
 }
 
 #contact_form textarea {
-    width: 640px;
+    width: 90%;
     height: 300px;
     padding: 12px 5px;
     margin: 8px 0;
